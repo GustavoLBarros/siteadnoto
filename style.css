@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#sobre a {
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 4px; 
+    border-radius: 3px; 
+}
+
+#sobre a:hover {
+    background-color: #FBFF4E;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+    filter: invert(1);
+    padding: 0;
+    margin-left: 20px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+header {
+    background-color: #f8f8f8;
+    color: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+    padding: 0;
+    margin-left: 80px;
+    filter: invert(0);
+}
+
+nav {
+    margin-right: 145px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: black;
+    cursor: pointer;
+    background-color: #FBFF4E;
+    padding: 5px;
+}
+
+.hero {
+    background-color: #121212;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;  
+    font-size: 1.2rem;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #FBFF4E;
+    color: black;
+    cursor: pointer;
+}
+
+#btnBaixarAgora {
+    background-color: #121212;
+    color: white;
+    border: 1px solid #fbff4e;
+    box-shadow: 0 0 10px rgba(251, 255, 78, 0.6),
+                0 0 20px rgba(251, 255, 78, 0.4),
+                0 0 30px rgba(251, 255, 78, 0.3),
+                0 0 40px rgba(251, 255, 78, 0.2);
+}
+
+#btnBaixarAgora:hover {
+    cursor: pointer;
+    background-color: #fbff4e;
+    color: black;
+    box-shadow: 0 0 10px rgba(251, 255, 78, 0.6),
+                0 0 20px rgba(251, 255, 78, 0.4),
+                0 0 30px rgba(251, 255, 78, 0.3),
+                0 0 40px rgba(251, 255, 78, 0.2);
+    text-shadow: 0 0 10px #FBFF4E, 0 0 20px #FBFF4E, 0 0 30px #FBFF4E;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.feature img {
+    width: 320px;
+    height: 180px;
+    margin-bottom: 15px;
+     filter: hue-rotate(2150deg);
+     border-radius: 3px;
+}
+
+.feature:hover {
+    background-color: #FBFF4E;
+    border-radius: 10px;
+    transform: scale(1.04);
+    text-shadow: 0 0 10px #FBFF4E, 0 0 20px #FBFF4E, 0 0 30px #FBFF4E;
+    cursor: pointer;
+}
+
+#download {
+    background-color: #121212;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#download h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.download-links a {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+footer {
+    background-color: #121212;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: invert(1);
+    margin-left: 500px;
+}
+
+.direitos{
+    margin-left: 380px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+.member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+.member:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+    background-color: #FBFF4E;
+}
+
+.team-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #121212; 
+    padding: 20px;
+    text-align: left;
+}
+
+.instagram-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram-content h3 {
+    font-size: 1.2rem;
+    color: white;
+    margin: 25px 0;
+    text-align: center; 
+
+}
+
+.instagram-img {
+    width: 200px; 
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.follow-button {
+    display: inline-block;
+    background-color: #3897f0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 25px; 
+    text-align: center;  
+    transition: background-color 0.3s;
+}
+
+.follow-button:hover {
+    background-color: #2d81c7;
+}
+
+#contato, footer form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 25px;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }

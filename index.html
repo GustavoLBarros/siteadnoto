@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adnoto - O Melhor Amigo do A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.svg" alt="Adnoto Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#download">Baixar</a></li>
+                <li><a href="#instagram">Seguir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Transforme seus Slides em Texto com um Clique!</h2>
+            <p>Com o Adnoto, basta apontar a câmera para os slides da aula e deixar que a IA transcreva tudo automaticamente para você.</p>
+            <a href="#download" class="btn" id="btnBaixarAgora">Baixar Agora</a>
+        </div>
+    </section>
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre o Adnoto</h2>
+            <p>O Adnoto foi desenvolvido por <a href="#equipe">três estudantes</a> do curso de ADS da FATEC - Americana, com o objetivo de ajudar outros alunos a registrar e organizar os conteúdos das aulas de forma prática e rápida. O Principal objetivo foi facilitar a vida do aluno ou universitário, em uma era de tecnologia. <p>Percebemos que muitos alunos não utilizam mais caderno, apenas tiram foto da lousa, e muitas vezes acabam perdendo a imagem ou tendo dificuldade para encontrar novamente.</p> Porém, durante o desenvolvimento do site, notamos que o APP traz outros benefícios, como por exemplo: Economia de tempo, economia de papel, acessibilidade (pessoas com TDAH e Autismo podem personalizar o APP para desenvolver interesse nos estudos, cegos conseguem "ouvir" um texto, etc).</p> 
+                <p>Nossa ferramenta utiliza a tecnologia de reconhecimento de imagem e inteligência artificial para transformar slides e anotações em texto, facilitando a revisão e estudo, além de utilizar o próprio ChatGPT para efetuar buscas sobre temas grifados.</p>
+        </div>
+    </section>
+    <section id="funcionalidades" class="section">
+        <div class="container">
+            <h2>Funcionalidades</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="reconhecimento.jpg" alt="Reconhecimento de Slides" class="feature-img">
+                    <h3>Reconhecimento de Slides</h3>
+                    <p>Aponte a câmera para os slides ou lousa e ele transcreve tudo automaticamente e converte em texto.</p>
+                </div>
+                <div class="feature">
+                    <img src="pesquisa.jpg" alt="Pesquisa com IA" class="feature-img">
+                    <h3>Pesquisa com IA</h3>
+                    <p>Pesquise rapidamente o conteúdo das suas anotações com a ajuda do ChatGPT, que facilita o entendimento dos tópicos.</p>
+                </div>
+                <div class="feature">
+                    <img src="organizar.jpg" alt="Organização de Aulas" class="feature-img">
+                    <h3>Organização de Aulas</h3>
+                    <p>Armazene suas transcrições de forma organizada e consulte-as sempre que precisar, ajudando no processo de revisão.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="equipe" class="section">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <div class="team">
+                <div class="member">
+                    <img src="jonatas.jpg" alt="Membro 1" class="team-img">
+                    <h3>Jônatas Santana</h3>
+                    <p>Idade: 19</p>
+                    <p>Função: Jurídico/Contabilidade</p>
+                </div>
+                <div class="member">
+                    <img src="iago.jpg" alt="Membro 2" class="team-img">
+                    <h3>Iago Lusvordes</h3>
+                    <p>Idade: 18</p>
+                    <p>Função: Marketing/CrowdFunding</p>
+                </div>
+                <div class="member">
+                    <img src="gustavo.jpg" alt="Membro 3" class="team-img">
+                    <h3>Gustavo Barros</h3>
+                    <p>Idade: 23</p>
+                    <p>Função: Designer UI/UX/Desenvolvedor WebSite e APP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="download" class="section download">
+        <div class="container">
+            <h2>Baixe Agora</h2>
+            <p>O Adnoto está disponível para Android e iOS. Faça o download agora e comece a transformar suas aulas!</p>
+            <div class="download-links">
+                <a href="#" class="btn download-btn">Baixar para Android</a>
+                <a href="#" class="btn download-btn">Baixar para iOS</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+    <div class="container">
+        <div class="instagram-section" id="instagram"> <!-- Adicionando id à seção -->
+            <div class="instagram-content">
+                <h3>Siga a gente no Instagram!</h3>
+                <img src="insta.png" alt="Print do Instagram do Adnoto" class="instagram-img">
+                <a href="https://www.instagram.com/fatecamoficial/" target="_blank" class="follow-button">Seguir</a>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-left">
+                <hr>
+                <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+                    <h3>Contato:</h3>
+                    <label for="nome-footer">Nome:</label>
+                    <input type="text" id="nome-footer" name="nome" required>
+
+                    <label for="email-footer">E-mail:</label>
+                    <input type="email" id="email-footer" name="email" required>
+
+                    <label for="assunto-footer">Assunto:</label>
+                    <input type="text" id="assunto-footer" name="assunto" required>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-right">
+                <hr>
+                <img src="logo.svg" alt="Adnoto Logo" class="footer-logo">
+            <div class="direitos">
+                <p>© 2024 - Adnoto. Todos os direitos reservados.</p>
+            </div>
+            </div>
+        </footer>
+    </div>
+</footer>
+</body>
+
+</html>
